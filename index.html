@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Re Fresh New</title>
+<!-- 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="assets/stylesheets/style.css">
+	<link rel="stylesheet" href="assets/stylesheets/responsive.css">
+
+	<!-- preload -->
+	<link rel="preload" href="assets/WaterNOTEXTv3.mp4" as="video" type="video/mp4">
+	<link rel="preload" href="assets/images/img-jeans.png" as="image">
+	<link rel="preload" href="assets/images/screen-video.png" as="image">
+
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_package/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_package/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_package/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon_package/site.webmanifest">
+	<link rel="mask-icon" href="assets/favicon_package/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#fff">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109744936-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-109744936-1');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1792628467492049');fbq('track','PageView');
+	</script>
+	<!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+	<!-- Facebook Pixel Code Image -->
+	<noscript><img height="1" width="1"src="https://www.facebook.com/tr?id=1792628467492049&ev=PageView&noscript=1"/></noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- preloader -->
+	<div class="preloader">
+		<div class="preloader__row">
+			<div class="preloader__item"></div>
+			<div class="preloader__item"></div>
+		</div>
+	</div>
+	
+	<!-- Swiper -->
+	<div id="numberSlides" class="swiper-container" data-active-slide="1">
+		<div class="parallax-bg bg-base"></div>
+
+		<!-- Add Logo -->
+		<div class="logo-small-wrap text-center">
+			<a class="logo-small" href="/"><img src="assets/images/logo-small.png" alt=""></a>
+		</div>
+
+		<!-- Add to Top -->
+		<div class="swiper-pagination pagination2"></div>
+
+		<div class="swiper-wrapper">
+			
+			<!-- Slide 1 - Main -->
+			<section class="swiper-slide slide-1 s-main" id="main">
+				<!-- <video autoplay loop defaultMuted playsinline controls poster="assets/images/screen-video.png"> -->
+				<video playsinline autoplay="autoplay" loop="loop" muted defaultMuted poster="assets/images/screen-video.png" oncontextmenu="return false;"  preload="auto"  id="myVideo">
+					<!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"> -->
+					<source src="assets/WaterNOTEXTv3.mp4" type="video/mp4">
+				</video>
+
+				<div class="slide-over"></div>
+			
+				<div class="inner">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-lg-6 align-items-center text-center">
+								<h1 class="logo title" data-swiper-parallax-y="-150" data-swiper-parallax-x="300">
+									<a href="/"><img src="assets/images/logo.png" alt=""></a>
+								</h1>
+							</div>
+							<div class="col-lg-6 ">
+								<div class="title-group">
+									<span class="tg-item tg-item-1" data-swiper-parallax-x="250" data-swiper-parallax-opacity="0.4">
+										Denim made<br> exclusively from
+									</span>						
+									<span class="tg-item tg-item-2" data-swiper-parallax="200" data-swiper-parallax-opacity="0.1">
+										<em>100%</em><br> Recycled
+									</span>
+									<span class="tg-item tg-item-3" data-swiper-parallax-y="30" data-swiper-parallax-opacity="0.8">
+										water
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Slide 2 - text 1 -->
+			<section class="swiper-slide s-text-1">
+				<div class="parallax-bg bg-gradient"></div>
+			
+				<img class="img-bg img-bg-1" 
+				style="position: absolute; left: 2%; top: 5%;" 
+				data-swiper-parallax="350" data-swiper-parallax-opacity="0"  
+				src="assets/images/bg-elements/drops-1.png" alt="">
+
+				<img class="img-bg img-bg-2" 
+				style="position: absolute; left: 5%; bottom: 5%;" 
+				data-swiper-parallax-x="250"  
+				src="assets/images/bg-elements/drops-1.png" alt="">
+
+				<img class="img-bg img-bg-3" 
+				style="position: absolute; left: 40%; bottom: 5%;" 
+				data-swiper-parallax-y="150" data-swiper-parallax-opacity="0.1"  
+				src="assets/images/bg-elements/wave-drops-1.png" alt="">
+
+				<div class="inner">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xl-6 align-self-xl-center">
+								<div class="description">
+									<p data-swiper-parallax-x="-200" data-swiper-parallax-opacity="0.3">Inspired by the ethos of circularity, we have been trying to re design the way we create products and our relationship with resources. Responsible water stewardship matters to us, and we have begun recycling 30% of our water consumption and using it in our production.</p>
+								</div>
+							</div>
+							<div class="col-xl-6 align-self-xl-center">
+								<div class="title-group" data-swiper-parallax-opacity="0.7" data-swiper-parallax-scale="0.8">
+									<span class="tg-item tg-item-1">AGI has decided</span>
+									<span class="tg-item tg-item-2">to take water</span>
+									<span class="tg-item tg-item-3">recycling </span>
+									<span class="tg-item tg-item-4" data-swiper-parallax-opacity="0.7"  data-swiper-parallax="-20">up a notch</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Slide 3 - text 2 -->
+			<section class="swiper-slide s-text-2">		
+				<img class="img-bg img-bg-4" 
+				style="position: absolute; left: 50%; top: 5%;" 
+				data-swiper-parallax="350" data-swiper-parallax-opacity="0"  
+				src="assets/images/bg-elements/drops-3.png" alt="">
+
+				<img class="img-bg img-bg-5" 
+				style="position: absolute; right: 5%; top: 50%;" 
+				data-swiper-parallax-x="250"  
+				src="assets/images/bg-elements/wave-drops-2.png" alt="">
+
+				<img class="img-bg img-bg-6" 
+				style="position: absolute; left: 40%; bottom: 5%;" 
+				data-swiper-parallax-y="150" data-swiper-parallax-opacity="0.1"  
+				src="assets/images/bg-elements/drops-4.png" alt="">
+
+				<div class="inner">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xl-6 offset-xl-6 align-self-center">
+								<div class="description">
+									<p data-swiper-parallax-x="-200" data-swiper-parallax-opacity="0.3">Reinvigorating recycling. A unique process separates recycled water from fresh water—ReFRESH uses this recycled water for denim washing. Experience a Revolutionary denim for a revitalized planet.</p>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</section>
+			
+			<!-- Slide 4 - Diagram -->
+			<section class="swiper-slide s-diagram">
+				<img class="img-bg img-bg-7" 
+				style="position: absolute; right: 4%; top: 4%;" 
+				data-swiper-parallax-y="150" data-swiper-parallax-opacity="0.1"  
+				src="assets/images/bg-elements/drops-5.png" alt="">
+
+				<div class="inner">
+					<div class="title-group title-group-1" data-swiper-parallax-opacity="0.1">
+						<span class="tg-item tg-item-1" data-swiper-parallax-y="25" data-swiper-parallax-opacity="0.7">how</span>
+						<span class="tg-item tg-item-2" data-swiper-parallax-x="-25"  data-swiper-parallax-scale="0.7" data-swiper-parallax-opacity="0.5">we</span>
+						<span class="tg-item tg-item-3" data-swiper-parallax-y="-25"  data-swiper-parallax-x="-125" data-swiper-parallax-opacity="0.3">do it</span>
+					</div>
+
+					<div class="diagram-group">
+						<img class="arrow-animate image" src="assets/images/diagram/arrows-round.png" alt="">
+
+						<span data-swiper-parallax-opacity="0">
+							<img class="dg-arrows dg-arrows-1"  src="assets/images/diagram/arrows.png" alt="">
+							<img class="dg-arrows dg-arrows-2"  src="assets/images/diagram/arrows.png" alt="">
+						</span>
+
+						<span class="dg-item dg-item-1">
+							<img src="assets/images/diagram/ico-dg-1.png" alt="">
+							<span class="description">
+								AGI’s Washing /<br> Laundry Department
+							</span>
+						</span>
+						<span class="dg-item dg-item-2">
+							<img src="assets/images/diagram/ico-dg-2.png" alt="">
+							<span class="description">
+								Water Treatment<br> & Recycling Plant
+							</span>
+						</span>
+						<span class="dg-item dg-item-3">
+							<img src="assets/images/diagram/ico-dg-3.png" alt="">
+							<span class="description">Waste Water</span>
+						</span>
+						<span class="dg-item dg-item-4">
+							<img src="assets/images/diagram/ico-dg-4.png" alt="">
+							<span class="description">100% Recycled<br> Water</span>
+						</span>
+						<span class="dg-item dg-item-5">
+							<img src="assets/images/diagram/ico-dg-5.png" alt="">
+							<span class="description">Recycling Rejection</span>
+						</span>
+					</div>
+				</div>
+			</section>
+
+			<!-- Slide Jeans -->
+			<section class="swiper-slide s-jeans">
+				<div class="inner">
+					<div class="parallax-bg bg-gradient-last"><img src="assets/images/img-jeans.png" alt="" class="img"></div>
+					
+					<img class="img-bg img-bg-8" 
+					style="position: absolute; right: 4%; bottom: 15%;" 
+					data-swiper-parallax-y="150" data-swiper-parallax-opacity="0.1"  
+					src="assets/images/bg-elements/drops-6.png" alt="">
+					
+					<div class="descritpion">
+						<div class="jeans-inner">
+							<h3>Jeans that <br> have:</h3>
+							<ul>
+								<li>Zero fresh water </li>
+								<li>Less impact on the environment </li>
+								<li>More value for the planet </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Slide Re-fresh -->
+			<section class="swiper-slide s-re-fresh">
+				<div class="inner">
+					<img class="img-bg img-bg-9" 
+					style="position: absolute; left: 58%; top: 4%;" 
+					data-swiper-parallax-y="150" data-swiper-parallax-opacity="0.1"  
+					src="assets/images/bg-elements/drops-7.png" alt="">
+
+					<img class="img-bg img-bg-10" 
+					style="position: absolute; right: 4%; bottom: 5%;" 
+					data-swiper-parallax-y="150" data-swiper-parallax-opacity="0.1"  
+					src="assets/images/bg-elements/drops-8.png" alt="">					
+					
+					<div class="title-group">
+						<span class="tg-item tg-item-1" data-swiper-parallax-y="25" data-swiper-parallax-opacity="0.4">Renewing</span>
+						<span class="tg-item tg-item-2" data-swiper-parallax-x="55"  data-swiper-parallax-scale="0.7" data-swiper-parallax-opacity="0.5">our pledge</span>
+						<span class="tg-item tg-item-3" data-swiper-parallax-y="-25"  data-swiper-parallax-x="-125" data-swiper-parallax-opacity="0.2">to the</span>
+						<span class="tg-item tg-item-2" data-swiper-parallax-x="-55"  data-swiper-parallax-scale="0.7" data-swiper-parallax-opacity="0.6">planet</span>
+					</div>
+
+					<h1 class="logo-main">
+						<a href="/"><img src="assets/images/logo.png" alt=""></a>
+					</h1>
+					
+				</div>
+			</section>
+	
+			<!-- Slide Last -->
+			<section class="swiper-slide s-last">
+				<div class="inner">
+					<h1 class="logo">
+						<span>Researched and Developed <br> by</span>
+						<a href="/"><img src="assets/images/AGIlogo.png" alt=""></a>
+					</h1>
+				</div>
+			</section>
+
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Scroll Bar -->
+		<div class="swiper-scrollbar"></div>
+
+	</div>
+
+	<!-- Swiper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	
+	<script>
+		$(window).on('load', function () {
+			$(".preloader").delay(500).fadeOut("slow");
+		});
+	</script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		jQuery(function($) {
+			var swiper = new Swiper('.swiper-container', {
+				// freeMode: true,
+				// autoHeight: true,
+				// calculateHeight:true,
+
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+
+				slidesPerView: 'auto',
+				parallax: true,
+
+				scrollbar: {
+					el: '.swiper-scrollbar',
+					trackSize : 1300,
+					draggable: true,
+					hide: true,
+				},
+
+				mousewheel: true,
+				mousewheel: {
+					sensitivity: 7,
+				},
+
+
+				// direction: getDirection(),
+				direction: 'vertical',
+
+				on: {
+					/*resize: function () {
+						swiper.changeDirection(getDirection());
+					},*/
+
+					init: function(sw){
+						var offer = document.querySelector('#numberSlides');
+						// offer.innerHTML = (sw.activeIndex +  1);
+						var numSlide = document.querySelector('#numberSlides');
+						numSlide.dataset.activeSlide  = sw.activeIndex + 1;
+					},
+
+					slideChange: function(sw){
+						var offer = document.querySelector('#numberSlides');
+						// offer.innerHTML = (sw.activeIndex +  1);
+						var numSlide = document.querySelector('#numberSlides');
+						numSlide.dataset.activeSlide  = sw.activeIndex + 1;
+					}
+				},
+				breakpoints: {
+				    991: {
+						direction: 'horizontal',
+
+						autoHeight: false,
+
+						freeMode: true,
+
+					}
+				}
+			});
+
+		});
+
+		/*function getDirection() {
+			var direction = window.innerWidth <= 991 ? 'vertical' : 'horizontal';
+			return direction;
+		}*/
+
+	</script>
+
+</body></html>
